@@ -5,7 +5,7 @@ from django.template.loader import render_to_string
 from django.utils.safestring import mark_safe
 from django.utils.translation import get_language
 
-from captcha._compat import (
+from django_recaptcha._compat import (
     build_opener, ProxyHandler, PY2, Request, urlencode, urlopen, want_bytes
 )
 

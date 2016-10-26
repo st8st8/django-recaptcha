@@ -2,7 +2,7 @@ from django import forms
 from django.conf import settings
 from django.utils.safestring import mark_safe
 
-from captcha import client
+from django_recaptcha import client
 
 
 class ReCaptcha(forms.widgets.Widget):
